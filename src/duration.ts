@@ -14,5 +14,5 @@ export function formatDuration(seconds: number): string {
   if (m > 0) parts.push(`${m}m`);
   if (s > 0 || parts.length === 0) parts.push(`${s}s`);
 
-  return parts.join("");
+  return parts.join('');
 }
